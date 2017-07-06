@@ -2,6 +2,7 @@ import React from 'react';
 import newContactImage from '../../assets/images/new-contact.png';
 
 class ListItem extends React.Component {
+  // WHAT COULD BE CHANGED HERE ?
 	selectContact(event) {
 		this.props.selectContact(this.props.contact);
 	}

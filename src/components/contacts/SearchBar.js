@@ -1,6 +1,7 @@
 import React from 'react';
 
 class SearchBar extends React.Component {
+	// WHAT COULD BE CHANGED HERE ?
 	applyFilter(event) {
 		this.props.applyFilter(event.target.value);
 	}

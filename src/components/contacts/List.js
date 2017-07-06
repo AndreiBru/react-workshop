@@ -2,6 +2,7 @@ import React from 'react';
 import ListItem from './ListItem';
 
 class List extends React.Component {
+  // WHAT COULD BE CHANGED HERE ?
   render() {
     return (
       <ul>
