@@ -253,8 +253,6 @@ small {
 	font-size: 25px;
 	cursor: pointer;
   padding: 5px 18px;
-  border: 1px solid grey;
-  border-radius: 27px;
 }
  
 *:focus {
