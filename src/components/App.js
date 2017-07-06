@@ -24,8 +24,7 @@ class App extends React.Component {
 	}
 
 	selectContact(contact) {
-		let selectedContact = contact;
-		this.setState({ selectedContact });
+		this.setState({ selectedContact: contact });
 	}
 
 	applyFilter(filter) {

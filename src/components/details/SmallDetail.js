@@ -1,6 +1,7 @@
 import React from 'react';
 
 class SmallDetail extends React.Component {
+  // WHAT COULD BE CHANGED HERE ?
 	updateText(event) {
 		this.props.updateContact(this.props.field, event.target.value);
 	}
