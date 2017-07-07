@@ -4,11 +4,6 @@ import List from './List';
 import Buttons from './Buttons';
 
 class Contacts extends React.Component {
-	constructor() {
-	  super();
-	
-	}
-
   render() {
     return (
   		<div className="b contact-list">
